@@ -6,7 +6,7 @@ import Impact from "../components/home/Impact";
 //import Programs from "../components/home/Programs";
 import Testimonials from "../components/home/Testimonials";
 
-const Home = () => {
+const HomePage = () => {
   return (
     <>
       <Hero />
@@ -18,4 +18,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default HomePage;
