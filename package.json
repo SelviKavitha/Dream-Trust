@@ -1,10 +1,9 @@
 {
   "name": "dreams-trust",
   "private": true,
-  "homepage": "https://SelviKavitha.github.io/Dream-Trust",
   "version": "0.0.0",
   "type": "module",
-  
+  "homepage": "https://SelviKavitha.github.io/Dream-Trust",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
