@@ -1,13 +1,17 @@
 {
   "name": "dreams-trust",
   "private": true,
+  "homepage": "https://SelviKavitha.github.io/Dream-Trust",
   "version": "0.0.0",
   "type": "module",
+  
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "lint": "eslint ."
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.3",
