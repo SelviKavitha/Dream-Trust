@@ -1,7 +1,9 @@
 import { FaArrowRight, FaHandsHelping } from "react-icons/fa";
 import hero from "../../assets/hero.jpeg";
+import { useNavigate } from "react-router";
 
 const Hero = () => {
+    const navigate = useNavigate();
   return (
     <section className="relative min-h-screen w-full pt-24 pb-10 overflow-hidden bg-gradient-to-r from-emerald-900 via-green-800 to-teal-700 shadow-lg flex items-center">
 
@@ -35,12 +37,14 @@ const Hero = () => {
 
             {/* Buttons */}
             <div className="mt-4 flex flex-col sm:flex-row gap-3 justify-center lg:justify-start">
-              <button className="bg-orange-500 hover:bg-orange-600 transition-all duration-300 hover:scale-105 text-white px-6 py-3 rounded-xl flex items-center justify-center gap-2 font-semibold shadow-xl text-sm sm:text-base">
+              <button className="bg-orange-500 hover:bg-orange-600 transition-all duration-300 hover:scale-105 text-white px-6 py-3 rounded-xl flex items-center justify-center gap-2 font-semibold shadow-xl text-sm sm:text-base" 
+    onClick={() => navigate("/donate")}>
                 Donate Now
                 <FaArrowRight />
               </button>
 
-              <button className="bg-white hover:bg-gray-100 transition-all duration-300 hover:scale-105 text-blue-700 px-6 py-3 rounded-xl flex items-center justify-center gap-2 font-semibold shadow-xl text-sm sm:text-base">
+              <button className="bg-white hover:bg-gray-100 transition-all duration-300 hover:scale-105 text-blue-700 px-6 py-3 rounded-xl flex items-center justify-center gap-2 font-semibold shadow-xl text-sm sm:text-base"
+               onClick={() => navigate("/joinus")}>
                 <FaHandsHelping />
                 Become Volunteer
               </button>

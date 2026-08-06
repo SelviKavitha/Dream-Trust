@@ -9,11 +9,12 @@ const Impact = () => {
       title: "Lives Impacted",
       description: "Helping communities through various social initiatives."
     },
-     {
+    {
       icon: <FaHandHoldingHeart />,
       number: "250+",
       title: "Women Beneficiaries",
-      description: ""
+      description:
+        "Providing skills, support, and better opportunities."
     },
     {
       icon: <FaGraduationCap />,
@@ -21,13 +22,13 @@ const Impact = () => {
       title: "Students Supported",
       description: "Providing quality education and learning opportunities."
     },
-   
+
     {
       icon: <FaLeaf />,
       number: "100+",
       title: "Elderly Care",
       description:
-        "Providing groceries, food, medical assistance, and essential care for senior citizens."
+        "Providing groceries, food, and essential care for senior citizens."
     }
   ];
 
